@@ -1,0 +1,93 @@
+.section-cards{
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+.heading-2{
+    font-size: 35px;
+    color: #ff6b6b;
+    text-align: center;
+}
+.heading-2::after{
+    content: "-";
+    display: block;
+    margin: 5px auto 15px auto;
+    height: 20px;
+    width: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+
+}
+.card__items{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px #d63031;
+    border-radius: 3px;
+}
+.card__heading > h2 {
+    font-size: 25px;
+    color: #2ecc71;
+    
+}
+.plan-description{
+    list-style: none;
+
+}
+.plan-description__items{
+    
+}
+.plan-description__icons{
+    margin-right: 5px;
+}
+.card__footer{
+    text-align: center;
+}
+.card__footer-btn{
+    background-color: #ff7675;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card__footer-btn:hover{
+    background-color: #ee5253;
+    transition:  0.2s ease-in;
+}
+
+.card__footer-link:link,.card__footer-link:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.card__footer-link:hover{
+    color: #1dd1a1;
+    transition: 0.2s ease-in-out;
+}
+@media only screen and (max-width: 1200px){
+    .card__heading > h2 {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .heading-2{
+        font-size: 35px;
+    }
+    .card__heading > h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .heading-2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 341px){
+    .heading-2{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .counter-title{
+        font-size: 15px;
+    }
+}

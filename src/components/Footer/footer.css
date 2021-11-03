@@ -1,0 +1,53 @@
+.footer{
+    font-size: 15px;
+    background-color: #120E43;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer__nav{
+    list-style: none;
+    margin-right: auto;
+
+}
+.footer__nav-items{
+    padding: 10px;
+   
+    
+}
+.footer__nav-links:link,
+.footer__nav-links:visited{
+    text-decoration: none;
+    color:inherit;
+}
+.footer__social{
+    list-style: none;
+}
+.footer__social-items{
+    display: inline-block;
+    padding: 5px;
+
+}
+.footer__social-link:link,
+.footer__social-link:visited{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+
+}
+.footer__social-link:hover{
+    color: #9C19E0;
+}
+#whatsapp-icon:link,
+#whatsapp-icon:visited
+{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+   
+}
+#whatsapp-icon:hover{
+color:#77D970;
+}
